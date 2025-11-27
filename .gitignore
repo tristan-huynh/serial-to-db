@@ -1,7 +1,33 @@
-# Environment Variables
-.env.*
-.env.local
+# Environment variables
 .env
+.env
+.env.local
 
-# virtual environment
+# Database files
+*.db
+
+# Log files
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Virtual environment
+venv/
+env/
 .venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
